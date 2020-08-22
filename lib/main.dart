@@ -6,6 +6,7 @@ import 'package:flame/components/component.dart';
 import 'package:flame/components/mixins/resizable.dart';
 import 'package:flame/flame.dart';
 import 'package:flame/game.dart';
+import 'package:flame/gestures.dart';
 import 'package:flame/position.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ void main() async {
 }
 
 
-class MyGame extends BaseGame {
+class MyGame extends BaseGame with TapDetector {
   Bird bird;
   Bg background;
 
