@@ -1,3 +1,4 @@
+// ignore: unused_import
 import 'dart:math' as math;
 
 import 'package:flame/anchor.dart';
@@ -27,7 +28,6 @@ class MyGame extends BaseGame {
     add(bird = Bird(size));
   }
 
-  @override
   void onTap() {
     bird?.tap();
   }

@@ -6,8 +6,10 @@ version: 0.1.0
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+
 dependencies:
-  flame: 0.17.2
+  flame: 0.25.0
+  flutter_svg: ^0.15.0
   flutter:
     sdk: flutter
 
@@ -16,7 +18,7 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
-  uses-material-design: false
+  uses-material-design: true
 
   assets:
    - assets/images/bird.png
